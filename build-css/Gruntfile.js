@@ -11,6 +11,9 @@ module.exports = function(grunt){
     clean: {
       siteA_css: [
         './css/style.css'
+      ],
+      siteA_mincss: [
+        './css/style.min.css'
       ]
     },
     // compile scss to css
@@ -29,7 +32,7 @@ module.exports = function(grunt){
       siteA: {
         expand: true,
         cwd: 'css/',
-        src: ['*.css'],
+        src: ['style.css'],
         dest: 'css/'
       }
     },
@@ -60,7 +63,7 @@ module.exports = function(grunt){
   grunt.registerTask('default', ['watch:siteA']);
 
   grunt.registerTask('build_siteA_mincss', [
-    'clean:siteA_css',
+    'clean:siteA_mincss',
     'compass:siteA',
     'cmq:siteA',
     'cssmin:siteA'
