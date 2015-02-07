@@ -6,9 +6,9 @@
 
 ディレクトリ | 内容
 ---- | ----
-[build-css/](tree/master/build-css) | CSSの結合/圧縮/最適化
-[build-js/](tree/master/build-js) | JSの結合/圧縮
-[build-js-for-siteA-and-siteB/](tree/master/build-js-for-siteA-and-siteB) | サイトAとサイトB用にJSを出力する
-[build-sjis/](tree/master/build-sjis) | Shift_JISに変換する
+[build-css/](./tree/master/build-css) | CSSの結合/圧縮/最適化
+[build-js/](./tree/master/build-js) | JSの結合/圧縮
+[build-js-for-siteA-and-siteB/](./tree/master/build-js-for-siteA-and-siteB) | サイトAとサイトB用にJSを出力する
+[build-sjis/](./tree/master/build-sjis) | Shift_JISに変換する
 build-styleguide/ | Hologramを使用して、スタイルガイドを作成する
 build-zip/ | 納品用ZIPを作成する
