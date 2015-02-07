@@ -10,15 +10,16 @@ npm install
 
 ## Gruntのタスクを実行する
 
-## htdocsディレクトリをZIPに固める
+`htdocs`ディレクトリ以下のすべてのファイル・ディレクトリをZIPに固めますが、`htdocs/_test`ディレクトリは除外されています。またgrunt-contrib-compressは、ドットから始まるファイルは自動的に除外します。もし、htdocsディレクトリ内に`.git`ディレクトリが存在したとしても、それはZIPには含まれません。
+Windows環境の場合、`Thumb.db`などを除外すると良いかもしれません。
+
+### htdocsディレクトリをZIPに固める
 
 ```sh
 grunt zip_htdocs
 ```
 
-このコマンドを叩くことで、htdocs以下をZIPに固めます。
-`htdocs/_test`ディレクトリは除外されています。またgrunt-contrib-compressは、ドットから始まるファイルは自動的に除外します。もし、htdocsディレクトリ内に`.git`ディレクトリが存在したとしても、それはZIPには含まれません。
-Windowsの場合、Thumb.dbなどを除外すると良いかもしれません。
+このコマンドを叩くことでZIPが生成されます。
 
 ```js
   grunt.initConfig({
