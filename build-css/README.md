@@ -14,19 +14,19 @@ npm install
 
 ## Gruntのタスクを実行する
 
-## 圧縮されていないCSSを生成する
+### 圧縮されていないCSSを生成する
 
 ```sh
 grunt build_siteA_css
 ```
 
-## 圧縮されたCSSを生成する
+### 圧縮されたCSSを生成する
 
 ```sh
 grunt build_siteA_mincss
 ```
 
-## SCSSの変更を感知してCSSを生成する
+### SCSSの変更を感知してCSSを生成する
 
 ```sh
 grunt
