@@ -1,0 +1,72 @@
+.foo {
+	color: #001;
+}
+
+.bar {
+	color: #002;
+}
+
+.baz {
+	color: #003;
+}
+
+.qux {
+	color: #004;
+}
+
+.quux {
+	color: #005;
+}
+
+.corge {
+	color: #006;
+}
+
+.grault {
+	color: #007;
+}
+
+.garply {
+	color: #008;
+}
+
+@media (min-width:640px) {
+
+.foo {
+	color: #100;
+}
+
+.baz {
+	color: #300;
+}
+
+.qux {
+	color: #400;
+}
+
+.grault {
+	color: #700;
+}
+
+}
+
+@media (min-width:960px) {
+
+.bar {
+	color: #200;
+}
+
+.quux {
+	color: #500;
+}
+
+.corge {
+	color: #600;
+}
+
+.garply {
+	color: #800;
+}
+
+}
+

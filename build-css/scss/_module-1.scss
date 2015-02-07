@@ -1,0 +1,20 @@
+.foo {
+  color: #001;
+}
+
+@media (min-width: 640px) {
+  .foo {
+    color: #100;
+  }
+}
+
+.bar {
+  color: #002;
+}
+
+@media (min-width: 960px) {
+  .bar {
+    color: #200;
+  }
+}
+
