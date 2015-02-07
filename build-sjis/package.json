@@ -1,0 +1,23 @@
+{
+  "name": "Build_JS",
+  "version": "0.0.0",
+  "description": "Sample",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:geckotang/cssnite-lp39.git"
+  },
+  "author": "@geckotang",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "matchdep": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-concat": "~0.5.0",
+    "iconv-lite": "~0.4.7",
+    "grunt-contrib-copy": "~0.7.0"
+  },
+  "dependencies": {}
+}
