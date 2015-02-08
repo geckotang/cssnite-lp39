@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* line 1, ../../../scss/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 4, ../../../scss/_base.scss */
+body {
+  font-size: 1.6rem;
+}
+
+/*doc
+---
+category: Button
+name:     ボタン1
+title:    ボタン1
+---
+
+```html_example
+<a class="my-button" href="#">ボタン</a>
+```
+*/
+/* line 12, ../../../scss/_button.scss */
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: tomato;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 20, ../../../scss/_button.scss */
+.my-button:hover {
+  background-color: orange;
+}
+
+@media (max-width: 640px) {
+  /* line 26, ../../../scss/_button.scss */
+  .my-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+/*doc
+---
+category: Button
+name:     ボタン1(大)
+title:    ボタン1(大)
+parent:   ボタン1
+---
+
+```html_example
+<a class="my-button  my-button--bigger" href="#">ボタン</a>
+```
+*/
+/* line 44, ../../../scss/_button.scss */
+.my-button--bigger {
+  display: inline-block;
+  padding: 20px 20px;
+  min-width: 300px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: tomato;
+}
+
+/*doc
+---
+category: Heading
+name:     見出し1
+title:    見出し1
+---
+
+```html_example
+<div class="my-heading">
+  <h1 class="my-heading__text">The quick brown fox jumps over the lazy dog.</h1>
+<!-- /.my-heading --></div>
+```
+
+```html_example
+<div class="my-heading">
+  <h1 class="my-heading__text">The quick brown fox jumps over the lazy dog.</h1>
+  <div class="my-heading__other"><a href="#">リンク</a></div>
+<!-- /.my-heading --></div>
+```
+*/
+/* line 21, ../../../scss/_heading.scss */
+.my-heading {
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 28, ../../../scss/_heading.scss */
+.my-heading__text {
+  display: table-cell;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* line 36, ../../../scss/_heading.scss */
+.my-heading__other {
+  display: table-cell;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+@media (max-width: 640px) {
+  /* line 42, ../../../scss/_heading.scss */
+  .my-heading__text {
+    font-size: 2rem;
+  }
+}

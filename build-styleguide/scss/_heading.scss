@@ -1,0 +1,45 @@
+/*doc
+---
+category: Heading
+name:     見出し1
+title:    見出し1
+---
+
+```html_example
+<div class="my-heading">
+  <h1 class="my-heading__text">The quick brown fox jumps over the lazy dog.</h1>
+<!-- /.my-heading --></div>
+```
+
+```html_example
+<div class="my-heading">
+  <h1 class="my-heading__text">The quick brown fox jumps over the lazy dog.</h1>
+  <div class="my-heading__other"><a href="#">リンク</a></div>
+<!-- /.my-heading --></div>
+```
+*/
+.my-heading {
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.my-heading__text {
+  display: table-cell;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 3rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.my-heading__other {
+  display: table-cell;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+@media (max-width: 640px) {
+  .my-heading__text {
+    font-size: 2rem;
+  }
+}

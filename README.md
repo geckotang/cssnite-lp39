@@ -11,4 +11,4 @@
 [build-js-for-siteA-and-siteB/](https://github.com/geckotang/cssnite-lp39/tree/master/build-js-for-siteA-and-siteB) | サイトAとサイトB用にJSを出力する
 [build-sjis/](https://github.com/geckotang/cssnite-lp39/tree/master/build-sjis) | Shift_JISに変換する
 [build-zip/](https://github.com/geckotang/cssnite-lp39/tree/master/build-zip) | ZIPを作成する
-build-styleguide/ | Hologramを使用して、スタイルガイドを作成する
+[build-styleguide/](https://github.com/geckotang/cssnite-lp39/tree/master/build-styleguide) | Hologramを使用して、スタイルガイドを作成する

@@ -1,0 +1,26 @@
+# Hologram config
+# 各ディレクトリはこのファイルからの相対位置で指定する
+
+# スタイルガイドを生成するためのCSS/SCSSの場所
+source: ../scss
+
+# スタイルガイドの配置先
+destination: ../htdocs/styleguide
+
+# テンプレートの場所
+documentation_assets: ./templates
+
+# マークダウンの解析をカスタムする
+custom_markdown: ./markdown_renderer.rb
+
+# スタイルガイド用のCSSやJSなどが配置されているディレクトリを指定する
+# ここで指定したディレクトリ以下にあるファイルは、destinationで指定したディレクトリにコピーされる
+dependencies:
+  - ./asset
+
+# main_area.htmlをコピーしてindex.htmlを作る
+# 指定しない場合は、sourceで指定したディレクトリ以下にあるindex.mdをhtmlにして
+# destinationで指定したディレクトリに配置される。
+# index: main_area
+
+sitename: 'STYLE GUIDE'

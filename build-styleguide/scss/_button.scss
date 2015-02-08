@@ -1,0 +1,51 @@
+/*doc
+---
+category: Button
+name:     ボタン1
+title:    ボタン1
+---
+
+```html_example
+<a class="my-button" href="#">ボタン</a>
+```
+*/
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: tomato;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    background-color: orange;
+  }
+}
+
+@media (max-width: 640px) {
+  .my-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/*doc
+---
+category: Button
+name:     ボタン1(大)
+title:    ボタン1(大)
+parent:   ボタン1
+---
+
+```html_example
+<a class="my-button  my-button--bigger" href="#">ボタン</a>
+```
+*/
+.my-button--bigger {
+  display: inline-block;
+  padding: 20px 20px;
+  min-width: 300px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: tomato;
+}
