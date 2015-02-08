@@ -1,0 +1,24 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: orange;
+}
+.block {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #111;
+}
+.block:first-child {
+  margin-top: 0;
+}
+.block--full {
+  margin-left: -20px;
+  margin-right: -20px;
+}

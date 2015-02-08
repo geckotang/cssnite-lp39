@@ -1,0 +1,19 @@
+{
+  "name": "BrowserSync",
+  "version": "0.0.0",
+  "description": "Sample",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:geckotang/cssnite-lp39.git"
+  },
+  "author": "@geckotang",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "matchdep": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-browser-sync": "~1.9.1"
+  },
+  "dependencies": {}
+}

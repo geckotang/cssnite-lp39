@@ -6,6 +6,7 @@
 
 ディレクトリ | 内容
 ---- | ----
+[browsesync](https://github.com/geckotang/cssnite-lp39/tree/master/browsersync) | ブラウザの自動更新
 [build-css/](https://github.com/geckotang/cssnite-lp39/tree/master/build-css) | CSSの結合/圧縮/最適化
 [build-js/](https://github.com/geckotang/cssnite-lp39/tree/master/build-js) | JSの結合/圧縮
 [build-js-for-siteA-and-siteB/](https://github.com/geckotang/cssnite-lp39/tree/master/build-js-for-siteA-and-siteB) | サイトAとサイトB用にJSを出力する
